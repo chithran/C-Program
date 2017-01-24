@@ -1,0 +1,78 @@
+#naa
+{
+	background-color: black;
+	width:950px;
+	height: 50px;
+	margin-left: 200px;
+}
+li
+{
+	color:white;
+	display: inline;
+	margin-left: 50px;
+    padding:10px;
+}
+#nee
+{
+	background-color: #ffcdd2;
+	height: 500px;
+	width: 950px;
+}
+#u
+{
+	margin-left: 90px;
+	color: black;
+}
+#wo
+{
+	margin-left: 30px;
+	color: black;
+}
+img
+{
+	padding: 2px;
+}
+#io
+{
+    padding: 40px; 
+	margin-top: 80px;
+	width: 30px;
+	height: 30px;
+	
+}
+#oo
+{
+	padding: 40px; 
+	width: 30px;
+	height: 30px;
+}
+#ty
+{
+	width: 180px;
+	height:170px;
+}
+#pl
+{
+   width: 160px;
+	height:150px;	
+}			
+button
+{
+	padding:11px;
+	color:red;
+	border-radius: 20px;
+	background-color: green;
+	margin-right: 150px;
+	}
+#z
+{
+	margin-top: 80px;
+	margin-left: 200px;
+	color:red;
+	border-radius:30px;
+	background-color: blue;
+
+}
+#y{
+	margin-left:80px;
+}
