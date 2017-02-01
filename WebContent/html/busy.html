@@ -1,0 +1,50 @@
+
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#xx").click(function(){
+        $("#div1").fadeIn();
+        $("#xx").click(function(){
+         $("#div1").fadeOut();
+        
+       });
+    $("#yy").click(function(){
+    $("#div2").fadeIn(1000);
+   $("#yy").click(function(){
+    $("#div2").fadeOut();
+    
+});
+});
+});
+});
+</script>
+</head>
+<body>
+
+<button id="xx" style="color: red;background-color: #ffcdd2"; ><p1>User</p1></button><br><br>
+<div id="div1"style="width:150px;height:200px;display:none; color: #90caf9;">
+ 
+  UserId:<input type="";>
+ Name:<input type=""/>
+ Address:<textarea type=""></textarea>
+ ContactNo:<input type=""/>
+E-mail:<input type=""/>
+ </div><br><br>
+
+  <button id="yy" style="color:red;background-color: #c5e1a5;"><p2>Attendance</p2></button><br><br>
+<div id="div2"style="width:100px;height:200px;display:none;color:#8bc34a;">
+ UserId:<input type=""/>
+ Date:<input type=""/><br><br>
+Try:<select  style="width:70px;height:20px;">
+  
+ 	<option  id="ee">Opsent</option>
+ 	
+ 	<option>Present</option>	
+ </select>
+ <div id="div3">Reasion:<input type=""/>
+  </div>
+</div>
+</body>
+</html>
