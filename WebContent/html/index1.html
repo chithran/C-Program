@@ -34,10 +34,10 @@ function domes(){
 		});
 	/************************/
 		$(document).ready(function(){
-		    $("div").delegate("p", "click",function(){
-		        $("p").css("background-color", "pink");
-		    });
-		});
+    $("div").delegate("p4", "click",function(){
+        $("p4").css("background-color", "pink");
+    });
+});
 		$(document).ready(function(){
 		    $("div").on("click", "button", function(event){
 		        $(event.delegateTarget).css("background-color", "aqua");
@@ -60,10 +60,12 @@ function domes(){
 <button onclick="call()">click mee</button>
 <button onclick="neeli()" class="list">who r u</button>
 <p1>hello kumar</p1>
+
 <div style="background-color:yellow;">
-  <p>This is a paragraph inside a div element.</p>
+  <p4>This is a paragraph inside a div element.</p4>
 </div>
-<p>This is a paragraph.</p>
+
+<p4>This is a paragraph.</p4>
 
 <div style="background-color:green">
   <p2>Click the button to change the background color of this div.</p2>
